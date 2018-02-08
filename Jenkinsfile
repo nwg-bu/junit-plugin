@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       args '-v /Users/nwg/.m2:/root/.m2'
-      image 'maven:3.5.2-jdk-8u161'
+      image 'maven:3.5.2-jdk-8'
     }
     
   }
