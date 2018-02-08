@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename '/dockerfile/jdk-8/Dockerfile.dockerfile'
+      filename '.root/dockerfile/jdk-8/Dockerfile.dockerfile'
     }
     
   }
