@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename '../../Users/nwg/.docker/jdk-8/Dockerfile.dockerfile'
+      filename '.root/Users/nwg/.docker/jdk-8/Dockerfile.dockerfile'
     }
     
   }
